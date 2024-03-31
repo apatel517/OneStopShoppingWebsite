@@ -17,18 +17,4 @@ To run OneStopShoppingWebsite locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/apatel517/OneStopShoppingWebsite.git
-##Technologies Used
-Frontend: React.js, HTML, CSS
-Backend: Node.js, Express.js
-Database: MongoDB
-Authentication: JSON Web Tokens (JWT)
-Deployment: Heroku (Backend), Netlify (Frontend)
-Contributing
-Contributions are welcome! If you encounter any bugs, have suggestions for new features, or would like to contribute code, please feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License.
-
-Credits
-Developed by Your Name and Contributors.
-Product images sourced from Unsplash.
