@@ -19,7 +19,7 @@ Welcome to ShoppingCart, your one-stop destination for all your shopping needs. 
 
 ## About Me
 
-Hi there! 👋 I'm [Asad Patel], a self-learning front-end developer aspiring to create captivating and user-centric web experiences. As someone new to the world of coding, I'm deeply passionate about learning and mastering the art of front-end development.
+Hi there! 👋 I'm Asad Patel, a self-learning front-end developer aspiring to create captivating and user-centric web experiences. As someone new to the world of coding, I'm deeply passionate about learning and mastering the art of front-end development.
 
 ### My Journey
 
