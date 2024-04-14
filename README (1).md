@@ -1,7 +1,7 @@
 
-# OneStopShoppingWebsite - PatelCart
+# OneStopShoppingWebsite - ShoppingCart
 
-Welcome to OneStopShoppingWebsite, your one-stop destination for all your shopping needs. This web application provides a convenient platform for users to explore and purchase products across various categories. With a user-friendly interface and essential features, OneStopShoppingWebsite aims to deliver a seamless shopping experience to its users.
+Welcome to ShoppingCart, your one-stop destination for all your shopping needs. This web application provides a convenient platform for users to explore and purchase products across various categories. With a user-friendly interface and essential features, OneStopShoppingWebsite aims to deliver a seamless shopping experience to its users.
 | Preview 1 | Preview 2 | Preview 3 |
 |-----------|-----------|-----------|
 |![Preview 1](images/loginpage.png "LOGIN PAGE")|![Preview 2](images/signuppage.png "REGISTRATION PAGE")|![Preview 3](images/mainpage.png "MAIN PAGE")|
@@ -70,7 +70,13 @@ To run OneStop Shopping Website - PatelCart locally, follow these steps:
 5. Open your web browser and navigate to http://localhost:3000 to access the website.
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+JavaScript
+HTML
+CSS
+React.js
+Bootstrap 
+Version Control 
+Responsive Web Design
 
 
 ## Contributing
