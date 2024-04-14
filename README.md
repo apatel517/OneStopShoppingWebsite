@@ -36,7 +36,7 @@ My primary goal as a self-learning front-end developer is to build a strong foun
 
 ### Let's Connect!
 
-I'm always eager to connect with fellow developers, mentors, and enthusiasts in the front-end community. Whether it's discussing coding challenges, sharing resources, or collaborating on projects, I'd love to hear from you! Feel free to reach out to me via [email](mailto:asadpatel517@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/asad--patel).
+I'm always eager to connect with fellow developers, mentors, and enthusiasts in the front-end community. Whether it's discussing coding challenges, sharing resources, or collaborating on projects, I'd love to hear from you! Feel free to reach out to me via [email](mailto:asadpatel517@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/asad--patel).
 
 ---
 
