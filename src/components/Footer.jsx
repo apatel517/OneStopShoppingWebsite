@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const title = "About PatelCart";
-const desc = "PatelCart is a leading online marketplace that offers a wide range of products catering to various needs of customers. From electronics to fashion, home decor. PatelCart has everything you need at your fingertips.";
+const desc = "ShoppingCart is a leading online marketplace that offers a wide range of products catering to various needs of customers. From electronics to fashion, home decor. ShoppingCart has everything you need at your fingertips.";
 const quickTitle = "Quick Links";
 const Itemtitle = "Categories";
 const tweetTitle = "Recent Tweets";
@@ -18,7 +18,7 @@ const addressList = [
     },
     {
         iconName: 'icofont-envelope',
-        text: 'info@patelcart.com',
+        text: 'info@shoppingcart.com',
     },
 ];
 
@@ -79,11 +79,11 @@ const ItemList = [
 const tweetList = [
     {
         iconName: 'icofont-twitter',
-        desc: 'Asad Patel @PatelCart Greetings! #HTML_Template Grab your item, 50% Big Sale Offer !!',
+        desc: 'Asad Patel @ShoppingCart Greetings! #HTML_Template Grab your item, 50% Big Sale Offer !!',
     },
     {
         iconName: 'icofont-twitter',
-        desc: 'Ansa Patel @PatelCart Hey! #HTML_Template Grab your item, 50% Big Sale Offer !!',
+        desc: 'Ansa Patel @ShoppingCart Hey! #HTML_Template Grab your item, 50% Big Sale Offer !!',
     },
 ];
 const footerbottomList = [{ text: 'Faculty', link: '#', }, { text: 'Staff', link: '#', }, { text: 'Students', link: '#', }, { text: 'Alumni', link: '#', },]
@@ -223,7 +223,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="container">
                     <div className="section-wrapper">
-                        <p>&copy; 2024 <Link to="/">Patel Cart</Link>Designed by <a href="/" target='_blank'>Asad Patel</a></p>
+                        <p>&copy; 2024 <Link to="/">Shopping Cart</Link>Designed by <a href="/" target='_blank'>Asad Patel</a></p>
                     </div>
                 </div>
             </div>

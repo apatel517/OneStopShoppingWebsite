@@ -4,7 +4,7 @@ import GoogleMap from '../components/GoogleMap';
 
 const subTitle = "Get in touch with us"; const title = "We're Always Eager To Hear From You!"; const conSubTitle = "Get in touch with Contact us"; const conTitle = "Fill The Form Below So We Can Get To Know You And Your Needs Better."; const btnText = "Send Your Message";
 
-const contactList = [{ imgUrl: "/src/assets/images/icon/01.png", imgAlt: "contact icon", title: "Office Address", desc: "123 Patel Street", }, { imgUrl: "/src/assets/images/icon/02.png", imgAlt: "contact icon", title: "Phone number", desc: "+1 981-245-2620 ", }, { imgUrl: "/src/assets/images/icon/03.png", imgAlt: "contact icon", title: "Send email", desc: "info@patelcart.com", }, { imgUrl: "/src/assets/images/icon/04.png", imgAlt: "contact icon", title: "Our website", desc: "www.patelcart.com", },];
+const contactList = [{ imgUrl: "/src/assets/images/icon/01.png", imgAlt: "contact icon", title: "Office Address", desc: "123 Shopping Street", }, { imgUrl: "/src/assets/images/icon/02.png", imgAlt: "contact icon", title: "Phone number", desc: "+1 981-245-2620 ", }, { imgUrl: "/src/assets/images/icon/03.png", imgAlt: "contact icon", title: "Send email", desc: "info@shoppingcart.com", }, { imgUrl: "/src/assets/images/icon/04.png", imgAlt: "contact icon", title: "Our website", desc: "www.shoppingcart.com", },];
 const Contact = () => {
     return (
         <div>

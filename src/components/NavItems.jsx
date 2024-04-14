@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/images/logo/newlogot.png";
+import logo from "../assets/images/logo/newlogob.png";
 import { AuthContext } from "../contexts/AuthProvider";
 import { NavDropdown } from "react-bootstrap";
 
