@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const title = "About PatelCart";
+const title = "About ShoppingCart";
 const desc = "ShoppingCart is a leading online marketplace that offers a wide range of products catering to various needs of customers. From electronics to fashion, home decor. ShoppingCart has everything you need at your fingertips.";
 const quickTitle = "Quick Links";
 const Itemtitle = "Categories";
@@ -69,7 +69,7 @@ const ItemList = [
     },
     {
         text: 'Policy',
-        link: '#',
+        link: '/about',
     },
     {
         text: 'FAQs',
