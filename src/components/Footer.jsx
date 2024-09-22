@@ -25,27 +25,27 @@ const addressList = [
 const socialList = [
     {
         iconName: 'icofont-facebook',
-        siteLink: '#',
+        siteLink: 'https://www.facebook.com/',
         className: 'facebook',
     },
     {
         iconName: 'icofont-twitter',
-        siteLink: '#',
+        siteLink: 'https://www.twitter.com/',
         className: 'twitter',
     },
     {
         iconName: 'icofont-linkedin',
-        siteLink: '#',
+        siteLink: 'https://www.linkedin.com/in/',
         className: 'linkedin',
     },
     {
         iconName: 'icofont-instagram',
-        siteLink: '#',
+        siteLink: 'https://www.instagram.com/',
         className: 'instagram',
     },
     {
         iconName: 'icofont-pinterest',
-        siteLink: '#',
+        siteLink: 'https://www.pinterest.com/',
         className: 'pinterest',
     },
 ];
@@ -76,6 +76,7 @@ const ItemList = [
         link: '/about',
     },
 ];
+
 const tweetList = [
     {
         iconName: 'icofont-twitter',
@@ -86,7 +87,13 @@ const tweetList = [
         desc: 'Ansa Patel @ShoppingCart Hey! #HTML_Template Grab your item, 50% Big Sale Offer !!',
     },
 ];
-const footerbottomList = [{ text: 'Faculty', link: '#', }, { text: 'Staff', link: '#', }, { text: 'Students', link: '#', }, { text: 'Alumni', link: '#', },]
+
+const footerbottomList = [
+    { text: 'Faculty', link: '#', },
+    { text: 'Staff', link: '#', },
+    { text: 'Students', link: '#', },
+    { text: 'Alumni', link: '#', }
+];
 
 const quickList = [
     {
@@ -121,6 +128,7 @@ const Footer = () => {
             <div className='footer-top dark-view padding-tb'>
                 <div className='container'>
                     <div className='row g-4 row-cols-xl-4 row-cols-sm-2 row-cols-1 justify-content-center'>
+                        {/* About PatelCart */}
                         <div className='col'>
                             <div className='footer-item our-address'>
                                 <div className='footer-inner'>
@@ -129,18 +137,20 @@ const Footer = () => {
                                             <h4>{title}</h4>
                                         </div>
                                         <div className="content">
-                                            <p> {desc}</p>
+                                            <p>{desc}</p>
                                             <ul className='lab-ul office-address'>
                                                 {addressList.map((val, i) => (
                                                     <li key={i}>
-                                                        <i className={val.iconName}>{val.text}</i>
+                                                        <i className={val.iconName}></i> {val.text}
                                                     </li>
                                                 ))}
                                             </ul>
                                             <ul className='lab-ul social-icons'>
                                                 {socialList.map((val, i) => (
                                                     <li key={i}>
-                                                        <a href='#' className={val.className}><i className={val.iconName}>{val.text}</i></a>
+                                                        <a href={val.siteLink} target="_blank" rel="noopener noreferrer" className={val.className}>
+                                                            <i className={val.iconName}></i>
+                                                        </a>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -149,8 +159,10 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Quick Links */}
                         <div className='col'>
-                            <div className='footer-item our-address'>
+                            <div className='footer-item'>
                                 <div className='footer-inner'>
                                     <div className="footer-content">
                                         <div className="title">
@@ -160,7 +172,7 @@ const Footer = () => {
                                             <ul className='lab-ul office-address'>
                                                 {quickList.map((val, i) => (
                                                     <li key={i}>
-                                                        <a href='#'>{val.text}</a>
+                                                        <Link to={val.link}>{val.text}</Link>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -169,6 +181,8 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Categories */}
                         <div className='col'>
                             <div className='footer-item'>
                                 <div className='footer-inner'>
@@ -180,7 +194,7 @@ const Footer = () => {
                                             <ul className='lab-ul office-address'>
                                                 {ItemList.map((val, i) => (
                                                     <li key={i}>
-                                                        <a href={val.link}>{val.text}</a>
+                                                        <Link to={val.link}>{val.text}</Link>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -189,6 +203,8 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Recent Tweets */}
                         <div className='col'>
                             <div className='footer-item'>
                                 <div className='footer-inner'>
@@ -198,16 +214,11 @@ const Footer = () => {
                                         </div>
                                         <div className="content">
                                             <ul className='lab-ul office-address'>
-                                                {
-                                                    tweetList.map((val, i) => (
-                                                        <li key={i}>
-                                                            <i className={val.iconName}></i>
-                                                            {val.desc}
-                                                        </li>
-
-
-                                                    ))
-                                                }
+                                                {tweetList.map((val, i) => (
+                                                    <li key={i}>
+                                                        <i className={val.iconName}></i> {val.desc}
+                                                    </li>
+                                                ))}
                                             </ul>
                                         </div>
                                     </div>
@@ -218,12 +229,11 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/*footer bottom */}
-
+            {/* Footer Bottom */}
             <div className="footer-bottom">
                 <div className="container">
                     <div className="section-wrapper">
-                        <p>&copy; 2024 <Link to="/">Shopping Cart</Link>Designed by <a href="/" target='_blank'>Asad Patel</a></p>
+                        <p>&copy; 2024 <Link to="/">Shopping Cart</Link>. Designed by <a href="/" target='_blank'>Asad Patel</a></p>
                     </div>
                 </div>
             </div>

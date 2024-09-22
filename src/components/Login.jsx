@@ -30,6 +30,9 @@ const Login = () => {
             const errorMsg = error.message;
             setErrorMessage("Please provide valid email and password")
         })
+        
+        
+
 
     }
     const handleRegister = () => {
