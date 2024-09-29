@@ -53,7 +53,7 @@ const Tags = () => {
                 {
                     tagsList.map((val, i) => (
                         <li key={i}>
-                            <a href={`val.link`}>
+                            <a href={val.link}>
                                 { val.text}
                             </a>
                         </li>
